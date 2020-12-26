@@ -1,0 +1,82 @@
+* {
+    font-family: 'Bangers', cursive;
+    cursor: pointer; 
+}
+body {
+    background-image: url(images/Drywall-1694x1133-640w.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* background-color: red; */
+}
+
+nav a {
+    font-size: 25px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #249A45;
+}
+
+a {
+    float: right;
+    margin: 15px;
+}
+
+a img:hover {
+    color: #249A45;
+}
+
+h1, h2 {
+    text-align: center;
+    margin-top: 100px;
+    color: #333BFF; 
+    
+}
+
+#week-day, #time {
+    text-align: center;
+    font-size: 25px;
+    color:blueviolet;
+}
+
+h2 {
+    font-size: 35px;
+}
+form {
+    max-width: 580px;
+    margin: 70px auto;
+    padding: 16px;
+    border: 3px solid #eaeaea;
+    
+    
+  }
+
+  p {
+      text-align: center;
+      width: 75%;
+      font-size: 25px;
+      margin-left: 200px;
+      line-height: 40px;
+  }
+
+  footer { 
+    background-color: transparent;
+    /* border: black solid 10px; */
+    color: black;
+    text-align: right;
+    position: sticky;
+    margin-top: 400px;
+    height: 10%;
+    font-size: 25px;
+   }
+
+   footer img {
+       border-radius: 50%;
+       border: black solid 10px;
+       width: 750px;
+       height: 70px; 
+   }
+
+  
