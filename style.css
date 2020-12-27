@@ -10,6 +10,10 @@ body {
     /* background-color: red; */
 }
 
+.icon {
+    font-size: 40px;
+    color: red;
+}
 nav a {
     font-size: 25px;
     text-decoration: none;
@@ -28,37 +32,73 @@ a img:hover {
     color: #249A45;
 }
 
-h1, h2 {
+h1 {
+
     text-align: center;
-    margin-top: 100px;
-    color: #333BFF; 
+    margin-top: 250px;
+    margin-left: 450px;
+    color: #dda408; 
+    font-size: 45px;
     
+}
+
+h2 {
+    text-align: center;
+    margin-top: 250px;
+    
+    color: #dda408; 
+    font-size: 45px;
 }
 
 #week-day, #time {
     text-align: center;
     font-size: 25px;
-    color:blueviolet;
+    color: #dda408; 
 }
 
-h2 {
+/* h2 {
     font-size: 35px;
-}
+} */
 form {
     max-width: 580px;
     margin: 70px auto;
     padding: 16px;
     border: 3px solid #eaeaea;
-    
+    font-size: 20px;
     
   }
 
+  #text {
+    text-align: center;
+    width: 75%;
+    font-size: 25px;
+    margin-left: 200px;
+    line-height: 40px;
+  }
+
+  .one .card {
+      color: red;
+    }
+    
+    .two .card {
+        color: green;
+        margin-top: 150px;
+  }
+
+  .three .card {
+      color: purple; 
+  }
+
   p {
-      text-align: center;
-      width: 75%;
-      font-size: 25px;
-      margin-left: 200px;
-      line-height: 40px;
+    font-size: 25px;
+  }
+ 
+  .flexbox-container {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: space-around;
+      
   }
 
   footer { 
@@ -72,11 +112,18 @@ form {
     font-size: 25px;
    }
 
+   footer p {
+       text-align: center;
+   }
+
    footer img {
        border-radius: 50%;
        border: black solid 10px;
-       width: 750px;
+       width: 75px;
        height: 70px; 
+       float: right;
    }
+
+   
 
   
